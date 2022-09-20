@@ -52,9 +52,9 @@ for name, grad in zip(names, grades):
     try:
         origen = r'' + carpetaOrigen + name
         destino = r'' + carpetaDestino + str(grad) + '/' + name
+        shutil.copy(origen, destino)
     except:
         continue
 
-    shutil.copy(origen, destino)
 
 print("Se movieron ", i)
