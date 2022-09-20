@@ -1,7 +1,7 @@
 import xlrd
 import shutil
 
-archivo = '/Users/agustincastillo/Documents/Documentacion/Annotation_Base11.xls'
+archivo = '/Vídeos/Datasets Retina/drive-download-20220712t015923Z-001/Messidor/Base1/Annotation_Base11.xls'
 
 wb = xlrd.open_workbook(archivo)
 hoja = wb.sheet_by_index(0)
@@ -14,7 +14,7 @@ for fila in range(1, hoja.nrows):
     grades.append(int(hoja.cell_value(fila, 2)))
 
 
-archivo = '/Users/agustincastillo/Documents/Documentacion/Annotation_Base12.xls'
+archivo = '/Vídeos/Datasets Retina/drive-download-20220712t015923Z-001/Messidor/Base1/Annotation_Base12.xls'
 
 wb = xlrd.open_workbook(archivo)
 hoja = wb.sheet_by_index(0)
@@ -24,7 +24,7 @@ for fila in range(1, hoja.nrows):
     grades.append(int(hoja.cell_value(fila, 2)))
 
 
-archivo = '/Users/agustincastillo/Documents/Documentacion/Annotation_Base13.xls'
+archivo = '/Vídeos/Datasets Retina/drive-download-20220712t015923Z-001/Messidor/Base1/Annotation_Base13.xls'
 
 wb = xlrd.open_workbook(archivo)
 hoja = wb.sheet_by_index(0)
