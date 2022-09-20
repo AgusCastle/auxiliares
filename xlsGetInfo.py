@@ -44,7 +44,7 @@ for fila in range(1, hoja.nrows):
 
 
 carpetaOrigen = './../'
-carpetaDestino = './../../../../../../Documentos/datsets-dr/messidor/'
+carpetaDestino = '~/Documentos/datsets-dr/messidor/'
 
 for name, grad in zip(names, grades):
     origen = r'' + carpetaOrigen + name
