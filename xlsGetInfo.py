@@ -50,4 +50,4 @@ for name, grad in zip(names, grades):
     origen = r'' + carpetaOrigen + name
     destino = r'' + carpetaDestino + str(grad) + '/' + name
 
-    shutil.move(origen, destino)
+    shutil.copy(origen, destino)
