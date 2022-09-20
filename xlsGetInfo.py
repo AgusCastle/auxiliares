@@ -43,8 +43,8 @@ for fila in range(1, hoja.nrows):
     grades.append(int(hoja.cell_value(fila, 2)))
 
 
-carpetaOrigen = '~/Vídeos/datasets-retina/drive-download-20220712T015923Z-001/Messidor/Base1/'
-carpetaDestino = '~/Documentos/datasets-dr/messidor/'
+carpetaOrigen = '/home/bringascastle/Vídeos/datasets-retina/drive-download-20220712T015923Z-001/Messidor/Base1/'
+carpetaDestino = '/home/bringascastle/Documentos/datasets-dr/messidor/'
 
 for name, grad in zip(names, grades):
     origen = r'' + carpetaOrigen + name
