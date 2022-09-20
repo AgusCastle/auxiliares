@@ -13,7 +13,7 @@ for fila in range(1, hoja.nrows):
     names.append(str(hoja.cell_value(fila, 0)))
     grades.append(int(hoja.cell_value(fila, 2)))
 
-
+print(len(names))
 archivo = './../Annotation_Base12.xls'
 
 wb = xlrd.open_workbook(archivo)
