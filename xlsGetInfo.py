@@ -2,7 +2,7 @@
 import xlrd
 import shutil
 
-archivo = './../Annotation_Base21.xls'
+archivo = './../Annotation Base21.xls'
 
 wb = xlrd.open_workbook(archivo)
 hoja = wb.sheet_by_index(0)
@@ -25,7 +25,7 @@ for fila in range(1, hoja.nrows):
     grades.append(int(hoja.cell_value(fila, 2)))
 
 
-archivo = './../Annotation_Base23.xls'
+archivo = './../Annotation Base23.xls'
 
 wb = xlrd.open_workbook(archivo)
 hoja = wb.sheet_by_index(0)
